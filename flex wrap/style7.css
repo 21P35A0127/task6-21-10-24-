@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* width: 700px; */
+    height: 400px;
+    padding: 20px;
+    gap: 5px;
+}
+
+.div {
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.flex-child1 {
+    width: 200px;
+    background-color: rgb(202, 226, 45);
+}
+
+.flex-child2 {
+    width: 350px;
+    background-color: rgb(14, 41, 199);
+}
+
+.flex-child3 {
+    width: 450px;
+    background-color: rgb(59, 181, 92);
+}
+
+.flex-child4 {
+    width: 550px;
+    background-color: rgb(229, 54, 14);
+}
+
+.flex-child5 {
+    width: 650px;
+    background-color: rgb(43, 191, 196);
+}
+
+.flex-child6 {
+    width: 850px;
+    background-color: rgb(19, 61, 6);
+}
+    
